@@ -38,15 +38,18 @@ async def process_text(request: TextData):
   """
   An AI researcher agent that will assist you in your research.
   """
-  task = Task(description = request.task, agent = researcher)
+  try:
+    task = Task(description = request.task, agent = researcher)
 
-  crew = Crew(
-    agents=[researcher,general],
-    tasks=[task],
-    verbose=2,
-    process=Process.sequential
-  )
+    crew = Crew(
+        agents=[researcher,general],
+        tasks=[task],
+        verbose=2,
+        process=Process.sequential
+    )
 
-  result = crew.kickoff()
+    result = crew.kickoff()
 
-  return {"data": result}
+    return {"data": result}
+  except Exception as e:
+    return {"error": str(e)}
