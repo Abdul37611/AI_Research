@@ -115,61 +115,70 @@ async def seo_analysis(request: Website):
         description="""
         Perform a complete SEO analysis on the given website. Brainstorm relevant keywords related to the website's content. Optimize title tags, meta descriptions, and heading tags (H1, H2, etc.).
         Check for SEO-friendly URLs. If images are present then optimize image alt tags. Ensure the content is high-quality, informative, and relevant to the target keywords. Suggest engaging and 
-        valuable content that can be used to modify the current content of the webiste.
+        valuable content that can be used to modify the current content of the webiste, This is very important, make sure to provide it without failure.
         Finally, Make sure without fail to provide an indepth suggestion and insights to improve the SEO of the website. It should be very detailed and actionable. Do not provide a general advice give insights tailor-made to the website.
 
         Refer the following as example, this is how your final answer should look like:
-        ### Keywords Brainstorming
+        1 Keywords Analysis
         - Primary Keyword: Virtual Classrooms
         - Secondary Keywords: Future of Education, Technological Advancements in Education, Online Learning, Adaptive Learning Platforms, Environmental Sustainability in Education, Pandemic Preparedness in Education, Cost-Effective Learning, Global Collaboration in Education
+        - Suggested Keywords: remote learning, E-Learning Solutions, Virtual Schooling
+        - Rationale: Including new keywords that aligns with the content of the website will help in boosting the website's visibility.
 
-        ### Title Tag Optimization
-        - **Current Title Tag**: "The Future of Education: Embracing Virtual Classrooms - AKRATECH"
-        - **Suggested Title Tag**: "Embracing Virtual Classrooms: The Future of Education | AKRATECH"
-        - **Rationale**: Placing the primary keyword at the beginning of the title can improve its visibility and relevance to search queries related to virtual classrooms. Including the brand name at the end helps in brand recognition.
+        2 Title Tag Optimization
+        - Current Title Tag: "The Future of Education: Embracing Virtual Classrooms - AKRATECH"
+        - Suggested Title Tag: "Embracing Virtual Classrooms: The Future of Education | AKRATECH"
+        - Rationale: Placing the primary keyword at the beginning of the title can improve its visibility and relevance to search queries related to virtual classrooms. Including the brand name at the end helps in brand recognition.
 
-        ### Meta Description Creation
-        - **Suggested Meta Description**: "Explore how Virtual Classrooms are shaping the Future of Education with AKRATECH. Discover the benefits of online learning, from environmental sustainability to global collaboration."
-        - **Rationale**: Despite the meta description not being available, crafting one that includes primary and secondary keywords while summarizing the content's essence can improve click-through rates from search engine results pages (SERPs).
+        3 Meta Description Creation
+        - Current Meta Description: No meta description is available.
+        - Suggested Meta Description: Explore how Virtual Classrooms are shaping the Future of Education with AKRATECH. Discover the benefits of online learning, from environmental sustainability to global collaboration.
+        - Rationale: Despite the meta description not being available, crafting one that includes primary and secondary keywords while summarizing the content's essence can improve click-through rates from search engine results pages (SERPs).
 
-        ### Header Tags Optimization
-        - Ensure that H1 tags are used for the main title - which should include the primary keyword. Only use one H1 tag per page.
-        - Use H2 tags for main sections. Suggestions include:
+        4 Header Tags Optimization
+        - H1: Ensure that H1 tags are used for the main title - which should include the primary keyword. Only use one H1 tag per page.
+        - H2: Use H2 tags for main sections. Suggestions include:
         - "The Rise of Virtual Classrooms in Modern Education"
         - "Technological Advancements: Making Online Learning More Effective"
         - "Global Collaboration and Adaptive Learning Platforms"
-        - Use H3 tags for sub-sections within the H2-tagged areas for more detailed topics like "Cost-Effectiveness", "Environmental Sustainability", and "Pandemic Preparedness".
+        - H3: Use H3 tags for sub-sections within the H2-tagged areas for more detailed topics like "Cost-Effectiveness", "Environmental Sustainability", and "Pandemic Preparedness".
 
-        ### SEO-friendly URLs
-        - **Current URL**: "https://www.akratech.com/the-future-of-education-embracing-virtual-classrooms/"
-        - **Suggested URL**: "https://www.akratech.com/virtual-classrooms-future-education"
-        - **Rationale**: Shorter URLs that contain the primary keyword enhance readability and SEO.
+        5 SEO-friendly URLs
+        - Current URL: "https://www.akratech.com/the-future-of-education-embracing-virtual-classrooms/"
+        - Suggested URL: "https://www.akratech.com/virtual-classrooms-future-education"
+        - Rationale: Shorter URLs that contain the primary keyword enhance readability and SEO.
 
-        ### Image Alt Tags Optimization
+        6 Image Alt Tags Optimization
         - Ensure all images related to the content have descriptive alt tags that include keywords where relevant. For example, an image discussing technological advancements could have an alt tag like "innovative-tech-for-online-learning".
 
-        ### High-Quality Content Suggestions
+        7 Content Suggestions
         - The current content seems to cover a wide array of topics relevant to virtual classrooms. To further enhance it:
         - Include case studies or real-world examples of successful virtual classroom implementations.
         - Add statistics to back up claims about cost-effectiveness, environmental sustainability, etc.
         - Incorporate quotes from educators and students who have experienced the transition to virtual classrooms.
-
-        ### Engaging and Valuable Content Ideas
         - Blog posts or guides on how educators can transition from traditional to virtual classrooms.
         - Webinars featuring experts discussing the future of education and the role of technology.
         - Interactive infographics detailing the benefits and challenges of virtual classrooms.
+        
+        8 Content Improvement
+        - Current Content from the website: The future of education is being increasingly shaped by Virtual classrooms, owing to a multitude of factors. From accessibility to technological advancements virtual classrooms are going to play a huge role in shaping the future.
+        - Suggested Content: The trajectory of education is swiftly pivoting towards virtual classrooms, driven by a myriad of factors. Ranging from enhanced accessibility to the rapid progression of technology, virtual classrooms are poised to profoundly influence the future educational landscape.
 
-        ### Tailor-Made SEO Improvement Suggestions
-        - **Internal Linking**: Strengthen the website's SEO by increasing internal linking between this page and other relevant pages/articles on the AKRATECH website. This helps in distributing page authority and keeping users engaged.
-        - **External Links**: Ensure all external links open in a new tab to keep users on the AKRATECH site. Also, periodically check that all external links are still valid and relevant.
-        - **Mobile Optimization**: Verify that the webpage is fully optimized for mobile devices, as Google predominantly uses mobile-first indexing.
-        - **Content Freshness**: Regularly update the content to include the latest trends, data, and relevant news related to virtual classrooms and education technology.
-        - **User Engagement**: Incorporate elements that increase user engagement, such as comments, polls, or social media share buttons that are more prominently displayed.
+        - Current Content from the website: Virtual classrooms eliminate the need for physical infrastructure, reducing costs associated with building and maintaining traditional classrooms.
+        - Suggested Content: Virtual classrooms obviate the necessity for physical infrastructure, thereby alleviating the financial burden associated with constructing and upkeeping traditional classroom spaces.
 
+        - Rationale: The revised line aims to enhance clarity, conciseness, and sophistication while maintaining the original message
+
+        9 Additional Suggestions
+        - Internal Linking: Strengthen the website's SEO by increasing internal linking between this page and other relevant pages/articles on the AKRATECH website. This helps in distributing page authority and keeping users engaged.
+        - External Links: Ensure all external links open in a new tab to keep users on the AKRATECH site. Also, periodically check that all external links are still valid and relevant.
+        - Mobile Optimization: Verify that the webpage is fully optimized for mobile devices, as Google predominantly uses mobile-first indexing.
+        - Content Freshness: Regularly update the content to include the latest trends, data, and relevant news related to virtual classrooms and education technology.
+        - User Engagement: Incorporate elements that increase user engagement, such as comments, polls, or social media share buttons that are more prominently displayed.
         """,
         agent=seo_agent,
         context=[html_task],
-        # tools=[search_tool]
+        tools=[search_tool]
     )
 
     # 4. Creating Crew
