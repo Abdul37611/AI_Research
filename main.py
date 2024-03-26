@@ -87,9 +87,6 @@ writer_agent = Agent(
     llm=llm
 )
 
-# export NEWSAPI_KEY=6422955e215246dd9d04d24e1765c44f
-# export OPENAI_API_KEY=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
-
 app = FastAPI(
     title="CrewAI",
     description="API documentation to interact with the agents.",
